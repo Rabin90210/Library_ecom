@@ -34,6 +34,6 @@ const  Highlight() {
 }
 
 
-adadad
+
 export default Highlights;
 
