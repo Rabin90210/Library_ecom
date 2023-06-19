@@ -1,3 +1,8 @@
+import './App.css';
+import Landing from './components/Landing';
+import Nav from './components/Nav';
+
+
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
