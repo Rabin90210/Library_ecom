@@ -32,7 +32,7 @@ const  Highlight() {
     </section>
   )
 }
- asddda
+
 
 
 export default Highlights;
