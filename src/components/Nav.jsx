@@ -40,13 +40,13 @@ const Nav = () => {
               </a>
             </li>
             <li className="menu__list">
-              <a href="books" className="menu__link">
+              <a href="/books" className="menu__link">
                 Books
               </a>
             </li>
             <li className="menu__list">
-              <a href="cart" className="menu__link">
-                cart
+              <a href="/cart" className="menu__link">
+                Cart
               </a>
             </li>
           </ul>

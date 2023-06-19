@@ -1,5 +1,6 @@
 import React from "react";
 import UndrawBooks from '../assets/Undraw_Books.svg';
+
 const Landing = () => {
   return (
     <section id="landing">
@@ -13,10 +14,11 @@ const Landing = () => {
          </a>
           </div>
           <figure className="header__img--wrapper">
-            <img src="../assets" alt="" />
+            <img src={UndrawBooks} alt="" />
           </figure>
         </div>
-      </header>
+      </header> 
     </section>
   );
 };
+ 
