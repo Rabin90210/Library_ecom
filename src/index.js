@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faShoppingCart, faTimes, faBolt, faBook, faBookOpen, faTags } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt,  } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faBars, faShoppingCart,faTimes,faBolt,faBookOpen, faTags )
+library.add(faBars, faShoppingCart,faTimes,faBolt,faBookOpen, faTags, faStar, faStarHalfAlt )
 
 
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
